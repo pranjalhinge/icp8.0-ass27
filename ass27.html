@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="e()">
+    <button type="button" onclick="hi()">
+       click to hi
+    </button><br/><br/>
+    <button type="button" ondblclick="howru()">
+       click to how r u?
+    </button><br/><br/>
+    <img src="https://pbs.twimg.com/media/FMVgthRVUAI1AJU?format=jpg&name=medium" width="150px" onmouseover="p()" onmousemove="q()" onmouseout="r()"/><br/><br/>
+    <input type="text" onkeypress="a()" onkeydown="b()" onkeyup="c()" onchange="d()"/>
+
+    <script>
+      function hi(){
+        console.log(`*******hi*******`);
+      }
+      function howru(){
+        console.log(`*******how r u?*******`);
+      }
+      function p(){
+        console.log(`PPPPPPPPPPPPPPPPPPPPPP`);
+      }
+      function q(){
+        console.log(`QQQQQQQQQQQQQQQQQQQQQQQQQQQ`);
+      }
+      function r(){
+        console.log(`RRRRRRRRRRRRRRRRRRRRRRRRR`);
+      }
+      function a(){
+        console.log(`key is pressed`);
+      }
+      function b(){
+        console.log(`key is down`);
+      }
+      function c(){
+        console.log(`key is up`);
+      }
+      function d(){
+        console.log(`change in key`);
+      }
+      function e(){
+        console.log(`page is loaded`);
+      }
+    </script>
+</body>
+</html>
